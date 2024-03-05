@@ -1,6 +1,8 @@
 import { DiceRoll } from '@dice-roller/rpg-dice-roller';
 import { useState, useEffect } from 'react'
 import { useSearchParams } from 'react-router-dom'
+import Switch from '@mui/material/Switch';
+
 import StatView from './StatView'
 import Move from './Move'
 import Tracker from './Tracker'
@@ -12,13 +14,14 @@ import roll_3 from '../assets/roll_3.mp3'
 import roll_4 from '../assets/roll_4.mp3'
 import roll_5 from '../assets/roll_5.mp3'
 
-function CharSheet({client}) {
+function CharSheet({client, sound}) {
     const [charInfo, setCharInfo] = useState({})
     const [moves, setMoves] = useState([])
     const [trackers, setTrackers] = useState([]) 
     const [stats, setStats] = useState([])
     const [queryParameters] = useSearchParams()
     const [rolls, setRolls] = useState([])
+    const [showUnmarkedMoves, setShowMoves] = useState(true)
 
     useEffect(()=> {
         if (queryParameters.get("CharID")) {
@@ -171,7 +174,7 @@ function CharSheet({client}) {
         roll += moves.filter((m) => m.isAvailable && m.isModAdded).map((m) => modToText(m.mod)).join('')
         setRolls([...rolls, new DiceRoll(roll)])
         setMoves(moves.map(m => {m.isModAdded = false; return m}))
-        rollSounds[Math.floor(Math.random()*rollSounds.length)].play()
+        sound && rollSounds[Math.floor(Math.random()*rollSounds.length)].play()
     }
 
     const removeRoll = (rollIndex) => {
@@ -227,7 +230,14 @@ function CharSheet({client}) {
 
                 <h2>{charInfo.playbook} Moves:</h2>
                 {charInfo.movesText? <p>{charInfo.movesText}</p> : ""}
-                {moves.filter((m) => m.playbook != 'basic').map(m => <Move key={m.name} move={m} toggleMoveAvailable={toggleMoveAvailable} toggleMoveAddMod={toggleMoveAddMod} rollDice={rollDice}></Move>)}
+                <div className='switchDiv'>
+                    <p>Show unmarked moves: </p>
+                    <Switch
+                        defaultChecked={showUnmarkedMoves}
+                        onChange={(e) => setShowMoves(e.target.checked)}
+                    />
+                </div>
+                {moves.filter((m) => m.playbook != 'basic' && (showUnmarkedMoves || m.isAvailable)).map(m => <Move key={m.name} move={m} toggleMoveAvailable={toggleMoveAvailable} toggleMoveAddMod={toggleMoveAddMod} rollDice={rollDice}></Move>)}
             </>
             : ""}
         </div>

@@ -169,6 +169,12 @@ textarea {
     flex: 2;
 }
 
+.switchDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .moveAction {
     width: 60px;
     display: flex;

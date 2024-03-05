@@ -1,0 +1,836 @@
+[{
+  "_id": {
+    "$oid": "659d689ad7857996ec107866"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Gold Crown Mysteries Move",
+  "description": "Once per mystery, when any Maven says “This reminds me of something that happened to Amanda Delacourt!”, work with the other players to describe how something that is happening in the situation reminds the Mavens of an event from one of the Gold Crown Mysteries. At a minimum, you must provide the following information: The name of the Gold Crown Mystery in question (no repeats, please!), The problem or situation Amanda found herself in that is similar to what the Mavens are experiencing, and How Amanda eventually overcame the problem or resolved the situation. Then, take a 12+ to a single relevant roll OR state a fact about the current situation that the Keeper must incorporate. Note: Generally-speaking, this move can only be used once per mystery, per group.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec107864"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Night Move",
+  "description": "When you do something risky or face something you fear, name what you're afraid will happen if you fail or lose your nerve. The Keeper will tell you how it is worse than you fear. You can choose to back down or go through with it. If you go through with it, roll with an appropriate ability. On a 10+, you do what you intended or you hold steady; describe what it looks like. On a 7-9, you do what you intended or you hold steady, but there is a complication or cost; the Keeper describes what it looks like. On a 12+, you do what you intended or you hold steady, and the Keeper will tell you some extra benefit or advantage you receive. Describe what it looks like.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec107869"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "Theorize",
+  "description": "When the Mavens have an open, freewheeling discussion about the solution to a mystery once they have gathered a number of Clues equal to at least half the mystery's Complexity (rounded up)—and reach a consensus—roll plus the number of Clues incorporated into the theory or otherwise explained away, minus the mystery's Complexity. On a 10+, it's the correct solution. The Keeper will present an opportunity to take down the culprit or otherwise save the day. On a 7-9, it's the correct solution, but the Keeper will either add an unwelcome complication to the solution itself, or present a complicated or dangerous opportunity to take down the culprit or save the day. On a 6-, the solution is incorrect, and the Keeper reacts. On a 12+, a person involved in the Dark Conspiracy of Brindlewood Bay also reveals themself to the Mavens. Note: It doesn't matter who rolls Theorize when the time comes. Additionally, Theorize cannot be taken with advantage or disadvantage, nor is it subject to the effects of other moves. The success tier can be increased by putting on a Crown, but only if every Maven does so.",
+  "isAvailable": true,
+  "isRoll": true
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec10786a"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "B.A. Baracus",
+  "name": "B.A. Baracus",
+  "description": "Once per mystery, if you and/or any number of your fellow Mavens would suffer physical harm, you can describe how that physical harm is just narrowly avoided.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec10786d"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "Sonny Crockett",
+  "name": "Sonny Crockett",
+  "description": "You have a very stylish wardrobe—people say “Wow!” whenever they see you around town. Describe your Style in a little more detail and then add Stylish Wardrobe to your Cozy Little Place. When you use it to get an advantage on a die roll, leave it unmarked.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107872"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Run Away",
+  "description": "When you run away, roll with Volatile. On a 10 up, you get away to a safe place. On a 7-9, you get away but choose one: [You run into something worse, You cause a big scene, or You leave something behind]",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Volatile"
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10787a"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Unashamed",
+  "description": "You can give someone a String on you to add 3 to your attempt to Turn Them On.",
+  "isAvailable": false,
+  "isRoll": false,
+  "mod": 3
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107881"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Unresolved Trauma",
+  "description": "Whenever something brings to mind your death, you choke up and gain the Condition traumatized if you don't have it already. Whenever someone helps you resolve this Condition, you both mark experience.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107889"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Kick Some Ass",
+  "description": "When you get into a fight and kick some ass, roll +Tough. On a 7+, you and whatever you're fighting inflict harm on each other. The amount of harm is based on the established dangers in the game. That usually means you inflict the harm rating of your weapon and your enemy inflicts their attack's harm rating on you. On a 10+, choose one extra effect: [You gain the advantage: take +1 forward, or give +1 forward to another hunter. You inflict terrible harm (+1 harm), You suffer less harm (-1 harm), You force them where you want them.] advanced: On a 12+ instead pick an enhanced effect: [You completely hold the advantage, All hunters involved in the fight get +1 forward, You suffer no harm at all, Your attack inflicts double the normal harm, Your attack drives the enemy away in a rout.]",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Tough"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10788e"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Manipulate Someone (normal person)",
+  "description": "Once you have given them a reason, tell them what you want them to do and roll +Charm. On a 10+, they'll do it for the reason you gave them. If you asked too much, they'll tell you the minimum it would take for them to do it (or if there's no way they'd do it). On a 7-9, they'll do it, but only if you do something for them right now to show that you mean it. If you asked too much, they'll tell you what, if anything, it would take for them to do it. Advanced: On a 12+ not only do they do what you want right now, they also become your ally for the rest of the mystery (or, if you do enough for them, permanently). ",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Charm"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107892"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Use Magic",
+  "description": "When you use magic, say what you're trying to achieve and how you do the spell, then roll +Weird. On a 10+, the magic works without issues: choose your effect. Effects: [Inflict harm (1-harm ignorearmour magic obvious), Enchant a weapon. It gets +1 harm and +magic, Do one thing that is beyond human limitations, Bar a place or portal to a specific person or a type of creature, Trap a specific person, minion, or monster, Banish a spirit or curse from the person, object, or place it inhabits, Summon a monster into the world, Communicate with something that you do not share a language with, Observe another place or time, Heal 1-harm from an injury, or cure a disease, or neutralize a poison]. On a 7-9, it works imperfectly: choose your effect and a glitch. The Keeper will decide what effect the glitch has. Glitches: [The effect is weakened, The effect is of short duration, You take 1-harm ignore-armour, The magic draws immediate unwelcome attention, It has a problematic side effect]. advanced: On a 12+ the Keeper will offer you some added benefit.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Weird"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107894"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Destiny's Plaything",
+  "description": "At the beginning of each mystery, roll +Weird to see what is revealed about your immediate future. On a 10+, the Keeper will reveal a useful detail about the coming mystery. On a 7-9 you get a vague hint about it. On a miss, something bad is going to happen to you.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Weird"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107899"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Invincible",
+  "description": "You always count as having 2-armour. This doesn't stack with other protection.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10789c"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Angel Wings",
+  "description": "You can go instantly to anywhere you've visited before, or to a person you know well. When you carry one or two people with you, roll +Weird. On a 10+ you all go where you wanted. On a 7-9, you don't quite manage it. Either you are all separated, or you all appear in the wrong place",
+  "isAvailable": false,
+  "isRoll": true,
+  "mod": "Weird"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec1078a0"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Lay On Hands",
+  "description": "Your touch can heal injury and disease. When you lay your hands on someone hurt, roll +Cool. On a 10+, heal 2 harm or an illness, plus they're stabilized. On a 7-9, you can heal the harm or illness as on a 10+, but you take it into yourself. On a miss, your aura causes them extra harm.",
+  "isAvailable": false,
+  "isRoll": true,
+  "mod": "Cool"
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f7b"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Short Rest for the Wicked",
+  "description": "When you die, wait it out. A few hours later, you wake up fully healed.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f7c"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Ending",
+  "description": "You remember every detail of your death. When you tell someone about it, give them the Condition morbid and roll to Turn Them On with Cold.",
+  "isAvailable": false,
+  "isRoll": true,
+  "mod": "Cold"
+},
+{
+  "_id": {
+    "$oid": "65a65cb41dbe648b5608ab76"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Take 1 forward",
+  "description": "Some moves will allow you to 'take 1 forward'- add +1 to the next roll. Mark this when a move calls for it.",
+  "isAvailable": true,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec107868"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Meddling Move",
+  "description": "When you search for a clue, conduct research, or otherwise gather information, describe how you're doing so and roll with an appropriate ability. On a hit, you find a Clue. The Keeper will tell you what it is. On a 7-9, there's a complication—either with the Clue itself, or a complication you encounter while searching. The Keeper will tell you what the complication is. On a 12+, you also find a Void Clue OR you learn something about the Dark Conspiracy in Brindlewood Bay (Keeper's choice).",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec10786b"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "Frank Columbo",
+  "name": "Frank Columbo",
+  "description": "Something about you causes the elite of society to not take you too seriously. What is it? Once per mystery, when you do the Meddling Move in a place occupied by the rich and famous, you find an additional Clue, even on a miss.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec10786e"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "Frank Dowling",
+  "name": "Frank Dowling",
+  "description": "You have a strong religious background. Describe it. When you use this move, describe how your faith is helping you resist the Void. Then, unmark every box on The Crown of the Void. You are still Obsessed with the Void if you unmark the Pomegranate Kernel. You may only use this move once.",
+  "isAvailable": true,
+  "isRoll": true
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107870"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Shut Someone Down",
+  "description": "When you shut someone down, roll with Cold. On a 10 up, choose one from below. On a 7-9, choose one from below, but you come across poorly, and they give you a Condition in return. [They lose a String on you, If they have no Strings on you, gain one on them, They gain a Condition, or You take 1 Forward].",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Cold"
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107885"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Creep",
+  "description": "When you silently witness someone in one of their most private moments, perhaps sleeping or putting on makeup, gain a String on them.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107887"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Darkest Self",
+  "description": "You become invisible, unnoticeable. No one can see you, feel you, or hear your voice. You can still affect inanimate objects, but this is your only avenue of communication. You escape your Darkest Self when someone acknowledges your presence, and demonstrates how much they want you around.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10788a"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Act Under Pressure",
+  "description": "When you act under pressure, roll +Cool. On a 10+ you do what you set out to. On a 7-9 the Keeper is going to give you a worse outcome, hard choice, or price to pay. advanced: On a 12+ you may choose to either do what you wanted and something extra, or to do what you wanted to absolute perfection.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Cool"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107891"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Read A Bad Situation",
+  "description": "When you look around and read a bad situation, roll +Sharp. On a 10+ hold 3, and on a 7-9, hold 1. One hold can be spent to ask the Keeper one of the following questions: [What's my best way in? What's my best way out? Are there any dangers we haven't noticed? What's the biggest threat? What's most vulnerable to me? What's the best way to protect the victims?] If you act on the answers, you get +1 ongoing while the information is relevant. advanced: On a 12+ you may ask the Keeper any question you want about the situation, not just the listed ones.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Sharp"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107897"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Devastating",
+  "description": "When you inflict harm, you may inflict +1 harm.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107898"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Dutiful",
+  "description": "When your fate rears its ugly head, and you act in accordance with any of your fate tags (either heroic or doom) then mark experience. If it's a heroic tag, take +1 forward.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10789a"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Resilience",
+  "description": " You heal faster than normal people. Any time your harm gets healed, heal an extra point. Additionally, your wounds count as 1-harm less for the purpose of the Keeper's harm moves.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10789b"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Boss from Beyond",
+  "description": "At the beginning of each mystery, roll +Weird. On a 10+, your Superiors ask you to do something simple. On a 7-9, they ask you to do something complicated or difficult. In either case, you get to ask them one of the questions from the investigate a mystery move right now. On a miss, you are required to do something terrible. If you do not accomplish what they've ordered, you cannot use this move again until you have made up for your failure.",
+  "isAvailable": false,
+  "isRoll": true,
+  "mod": "Weird"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10789d"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "What I Need, When I Need It",
+  "description": "You may store any small object you own, putting it into a magical space nobody can get to. You may retrieve anything you stored at any time; it appears in your hand",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10789e"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Smite",
+  "description": "Your body and divine weapon always count as a weakness against the monsters you fight. Your unarmed attacks are 2-harm intimate hand messy.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec1078a1"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Cast Out Evil",
+  "description": "You may banish an unnatural creature from your presence. Roll +Tough. On a 10+ it is banished. On a 7-9 it takes a little while for the banishing to take effect—the creature has time to make one or two actions. Either way, the banished creature is unharmed, and you have no control over where it goes. This move may be used on unnatural hunters (e.g. the Monstrous). On a miss, something is keeping it here. That's bad.",
+  "isAvailable": false,
+  "isRoll": true,
+  "mod": "Tough"
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f78"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "The Hunger",
+  "description": "You have a Hunger for (pick 1): fear, power, plunder, thrills. When you heedlessly pursue a Hunger, add 1 to rolls (mark checkbox to add). When you ignore a promising feeding opportunity, roll to Keep Your Cool.",
+  "isAvailable": true,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f7a"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Satiety",
+  "description": "When you satiate a Hunger, choose one: heal 1 Harm, mark experience, take 1 Forward (mark checkbox to add)",
+  "isAvailable": false,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f7f"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Gaze Into the Abyss",
+  "description": "When you gaze into the abyss, name what you're looking for and roll with Dark. On a 10 up, the abyss shows you lucid visions, and you take 1 Forward to addressing them. On a 7-9, the abyss shows you confusing and alarming visions, but you get your answer nonetheless.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Dark"
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f80"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Sex Move",
+  "description": "When you have sex with someone, create a new Hunger.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "65a65c391dbe648b5608ab6f"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Lash Out Physically",
+  "description": "When you lash out physically, roll with Volatile. On a 10 up, you deal them harm, and they choke up momentarily before they can react. On a 7-9, you harm them but choose one: [They learn something about your true nature and gain a String on you, The MC decides how bad the harm turns out, You become your Darkest Self.]",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Volatile"
+},
+{
+  "_id": {
+    "$oid": "65a65cb41dbe648b5608ab71"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Pulling Strings",
+  "description": "When you spend a String on someone, choose one: [Tempt them to do what you want, Give them a Condition, Add 1 to your roll against them (mark checkbox to apply), or Add 1 to the harm you deal them]",
+  "isAvailable": true,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "65a65cb41dbe648b5608ab74"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Skirting Death",
+  "description": "To avoid death, erase all harm and choose one: [Become your Darkest Self, Lose all Strings you have on everybody]",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec107863"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Day Move",
+  "description": "When you do something risky or face something you fear, name what you're afraid will happen if you fail or lose your nerve, then roll with an appropriate ability. On a 10+, you do what you intended or you hold steady; describe what it looks like. On a 7-9, the Keeper will tell you how your actions would leave you vulnerable, and you can choose to back down or go through with it. If you go through with it, the Keeper describes what it looks like. On a 12+, you do what you intended or you hold steady, and the Keeper will tell you some extra benefit or advantage you receive. Describe what it looks like.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec10786c"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "Dale Cooper",
+  "name": "Dale Cooper",
+  "description": "Add 1 to your Sensitivity (max 3). At the beginning of each session, the Keeper will give you a Void Clue in the form of a strange, unsettling dream you experience. No two Mavens can have this move at the same time.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10786f"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Turn Someone On",
+  "description": "When you turn someone on, roll with Hot. On a 10 up, gain a String on them and they choose a reaction from below. On a 7-9, they can either give you a String or choose one of the reactions. [I give myself to you, I promise something I think you want, or I get embarrassed and act awkward]",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Hot"
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107871"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Keep Your Cool",
+  "description": "When you keep your cool and act despite fear, name what you`re afraid of and roll with Cold. On a 10 up, you keep your cool and gain insight: ask the MC a question about the situation and take 1 Forward to acting on that information. On a 7-9, the MC will tell you how your actions would leave you vulnerable, and you can choose to back down or go through with it.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Cold"
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107879"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Faery Contract",
+  "description": "If someone breaks a promise or contract made to you, take a String on them. When spending a String to even out the score and get justice on a broken promise, add these options to Pulling Strings: [they fuck up something simple at a crucial moment, suffering 1 Harm if appropriate, add 2 to your roll on an act of vengeance (Check checkbox to add to roll)].",
+  "isAvailable": true,
+  "isRoll": false,
+  "mod": 2
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10787e"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Beyond The Veil",
+  "description": "To seek audience with the Faery King, Gaze Into the Abyss. On a 10 up, in addition to other results, the Faery King reveals to you a hidden String on someone. Gain it. • On a 7 to 9, in addition to other results, the Faery King demands a favour of you.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107884"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Projected Blame",
+  "description": "While you've got the Condition traumatized, you may act as though others had the Condition at fault for my death.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107886"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Limitless",
+  "description": "You can walk through walls and fly.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107888"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Sex Move",
+  "description": "When you have sex with someone, you both get to ask a question of one another. This can be asked in character or player-to-player. They must answer honestly and directly.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107890"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Protect Someone",
+  "description": "When you prevent harm to another character, roll +Tough. On a 7+, you protect them okay, but you'll suffer some or all of the harm they were going to get. On a 10+ choose an extra: [You suffer little harm (-1 harm), All impending danger is now focused on you, You inflict harm on the enemy, You hold the enemy back]. Advanced: on a 12+ both you and the character you are protecting are unharmed and out of danger. If you were protecting a bystander, they also become your ally.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Tough"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107895"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "I'm Here For A Reason",
+  "description": "There's something you are destined to do. Work out the details with the Keeper, based on your fate. You cannot die until it comes to pass. If you die in play, then you must spend a Luck point. You will then, somehow, recover or be returned to life. Once your task is done (or you use up all your Luck), all bets are off.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10789f"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Soothe",
+  "description": "When you talk to someone for a few seconds in a quiet voice, you can calm them down, blocking any panic, anger, or other negative emotions they have. This works even if the thing that freaked them out is still present, as long as your voice can be heard.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "65a65cb41dbe648b5608ab72"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Healing",
+  "description": "When you take time to tend to your wounds, once per session you may heal 1 Harm. If someone else is there with you, tending to your wounds delicately and intimately - and perhaps with erotic subtext - you may heal an additional 1 Harm.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec107865"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Cozy Move",
+  "description": "When you have an intimate moment with another Maven while one of you is engaged in your cozy activity, you may each clear an appropriate Condition. If it's your cozy activity, you can also stumble on a Clue relevant to the active mystery. Tell the Keeper what it is. The Clue cannot conclusively solve the mystery by itself.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d689ad7857996ec107867"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Occult Move",
+  "description": "When you engage in an activity related to the supernatural or the occult for the first time, imagine what your actions would look like as a move. Say what triggers the move and roll with Sensitivity. On a hit, it works; work with the Keeper to write the move—it is now a move all Mavens can use for the rest of the game and your roll stands. On a 7-9, you must also mark the Crown of the Void. On a miss, it's not something the Mavens can ever do fictional justification for doing so before attempting to trigger this move.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Sensitivity"
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10787b"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "The Wild Hunt",
+  "description": "When you draw upon your most feral manner, echoing the lithe movements of a cat or the voracity of a wolf, add 1 to your roll to Turn Someone On.",
+  "isAvailable": false,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10787c"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Lure",
+  "description": "Whenever someone makes a promise to you, they mark experience. Whenever someone breaks a promise to you, you mark experience.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10787d"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Guide",
+  "description": "If you spend a String on someone willing, you can bring them across the veil, into the faery realm. The spell lasts for a scene or two, before you're both returned to the mundane world.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec10787f"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Darkest Self",
+  "description": "Everything you say seems a promise. Everything you hear seems a promise. If a promise is broken, justice must be wrought in trickery or blood. You aren't subject to the human rules of mercy. To escape your Darkest Self, you must in some way re-balance the scales of justice.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107880"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Sex Move",
+  "description": "When you lie naked with another, you can ask them for a promise. If they refuse, take 2 Strings on them.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107882"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Helpful Spirit",
+  "description": "When you help someone resolve a Condition, gain a String on them",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68afd7857996ec107883"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Transference",
+  "description": "Whenever you spend time truly listening to someone else's struggles, they heal 1 Harm, and then transfer their remaining harm to you.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10788c"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Help Out",
+  "description": "When you help another hunter, roll +Cool. On a 10+ your help grants them +1 to their roll. On a 7-9 your help grants them +1 to their roll, but you also expose yourself to trouble or danger. advanced: On a 12+ your help lets them act as if they just rolled a 12, regardless of what they actually got.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Cool"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10788d"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Investigate A Mystery",
+  "description": "When you investigate a mystery, roll +Sharp. On a 10+ hold 2, and on a 7-9 hold 1. One hold can be spent to ask the Keeper one of the following questions:[What happened here?, What sort of creature is it?, What can it do?, What can hurt it?, Where did it go?, What was it going to do?, What is being concealed here?]. advanced: On a 12+, you may ask the Keeper any question you want about the mystery, not just the listed ones.",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Sharp"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec10788f"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Manipulate Someone (another hunter)",
+  "description": "On a 10+, if they do what you ask they mark experience and get +1 forward. On a 7-9, they mark experience if they do what you ask. On a miss, it's up to that hunter to decide how badly you offend or annoy them. They mark experience if they decide not to do what you asked. Monsters and minions cannot normally be manipulated. Advanced: On a 12+ they must act under pressure to resist your request. If they do what you ask, they mark one experience and take +1 ongoing while doing what you asked. ",
+  "isAvailable": true,
+  "isRoll": true,
+  "mod": "Charm"
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107893"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Big Magic",
+  "description": "Use this when you want more than the Use Magic effects. Tell the Keeper what you want to do. The Keeper may require: [You need to spend a lot of time (days or weeks) researching the magic ritual, You need to experiment with the spell - there will be lots of failures before you get it right, You need some rare and weird ingredients and supplies, The spell will take a long time (hours or days) to cast, You need a lot of people to help, The spell needs to be cast at a particular place and/or time, You need to use magic as part of the ritual, It will have a specific side-effect or danger]. If you meet the requirements, then the magic takes effect.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "659d68e9d7857996ec107896"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "The Big Entrance",
+  "description": "When you make a showy entrance into a dangerous situation, roll +Cool. On 10+ everyone stops to watch and listen until you finish your opening speech. On a 7-9, you pick one person or monster to stop, watch and listen until you finish talking. On a miss, you're marked as the biggest threat by all enemies who are present.",
+  "isAvailable": false,
+  "isRoll": true,
+  "mod": "Cool"
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f79"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "What the Right Hand Wants",
+  "description": "Your body contains many histories, and it desires many things. Create another Hunger.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f7d"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Watchful Golem",
+  "description": "When you defend someone without them ever knowing about it, mark experience",
+  "isAvailable": false,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f7e"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Esprit de Corpse",
+  "description": "When you Gaze Into the Abyss, the abyss will share with you its Hunger. Treat that Hunger as one of your own until you satiate it, and mark experience when you do so.",
+  "isAvailable": false,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "65a55e7fb7a5af456b045f81"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Darkest Self",
+  "description": "Your dull hunger sharpens. You can't focus on anything else but feeding. And in addition to your peculiar cravings, you recognize something else. That primordial hunger which connects all hungers. Flesh, blood, meat. You escape your Darkest Self once you've overindulged, or you've been locked out for long enough to regain composure.",
+  "isAvailable": true,
+  "isRoll": false
+},
+{
+  "_id": {
+    "$oid": "65a65cb41dbe648b5608ab73"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Use Someone's Conditions",
+  "description": "If you take advantage of someone's Condition while making a move against them, add 1 to your roll. A Condition goes away when the character suffering it takes appropriate action to alleviate it.",
+  "isAvailable": true,
+  "isRoll": false,
+  "mod": 1
+},
+{
+  "_id": {
+    "$oid": "65a65cb41dbe648b5608ab75"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Gangs",
+  "description": "Gangs add +1 to your rolls and harm as applicable.",
+  "isAvailable": true,
+  "isRoll": false,
+  "mod": 1
+}]

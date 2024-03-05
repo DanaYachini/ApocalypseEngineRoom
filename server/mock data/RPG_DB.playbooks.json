@@ -1,0 +1,616 @@
+[{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078cb"
+  },
+  "name": "B.A. Baracus",
+  "systemName": "Brindlewood Bay",
+  "available_at": "https://preview.drivethrurpg.com/en/product/410316/Brindlewood-Bay-Kickstarter-Edition",
+  "statsOptions": [
+    [
+      {
+        "name": "Vitality",
+        "value": 0
+      },
+      {
+        "name": "Composure",
+        "value": 1
+      },
+      {
+        "name": "Reason",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 0
+      },
+      {
+        "name": "Sensitivity",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "At the beginning of the game, add 1 to a single ability.",
+  "description": [
+    "Once per mystery, if you and/or any number of your fellow Mavens would suffer physical harm, you can describe how that physical harm is just narrowly avoided."
+  ],
+  "madeBy": "Jason Cordova"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078c7"
+  },
+  "name": "The Ghost",
+  "systemName": "Monsterhearts",
+  "available_at": "https://buriedwithoutceremony.com/",
+  "madeBy": "Avery Alder",
+  "playingThis": [
+    "Lonely, wounded, caring, and creepy. The Ghost has experienced intense trauma, and now seeks validation and intimacy. They have the potential to provide care and healing for others, but also tend to ignore personal and physical boundaries.",
+    "At the start of the game, the Ghost's low Hot stat means that they aren't good at Turning Someone On. This plays into their core dilemma - without social power, how does the Ghost get the attention and emotional support that they need? Maybe they're endlessly giving, hoping for reciprocation. Helpful Spirit and Transference both point in that direction. Maybe they're mean and spiteful, assuming from the outset that they aren't worthy of affection. Unresolved Trauma and Projected Blame provide a different dynamic, suggesting a mean and spiteful Ghost who lashes out at those who remind them of what they've lost. Creep and Limitless add a voyeuristic element, encouraging the Ghost to ignore others' boundaries. Lots of other possibilities exist in the interactions between these moves, too.",
+    "Someone knows that you're dead and how you died. They gain 2 Strings on you.",
+    "You've been inside someone's bedroom while they were sleeping. Take a String on them."
+  ],
+  "description": [
+    "You used to have a future. Growing up was a painful tumult at times, but at least you were growing. Now you only have a past - unfinished business to take care of before you can leave this world behind.",
+    "Life is precious. You understand that, now that you've lost yours. You just want to help. You just want to be seen. But sometimes even the simplest desires feel so difficult to grasp.",
+    "Ghosty ghost, you're dead."
+  ],
+  "statOptionsText": "The two stat choices for the Ghost let you steer toward being either icy and distant (Cold 2 & Dark 1), or scary and moody (Dark 2 & Volatile 1). Your ghost might end up crying out for help, pushing away the very people they care about, or burning themself out trying to take care of others.",
+  "statsOptions": [
+    [
+      {
+        "name": "Hot",
+        "value": -1
+      },
+      {
+        "name": "Cold",
+        "value": 2
+      },
+      {
+        "name": "Volatile",
+        "value": -1
+      },
+      {
+        "name": "Dark",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "name": "Hot",
+        "value": -1
+      },
+      {
+        "name": "Cold",
+        "value": -1
+      },
+      {
+        "name": "Volatile",
+        "value": 1
+      },
+      {
+        "name": "Dark",
+        "value": 2
+      }
+    ]
+  ],
+  "movesText": "You get Unresolved Trauma, and choose two more Ghost moves"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078c9"
+  },
+  "name": "The Chosen",
+  "systemName": "Monster Of the Week",
+  "available_at": "https://evilhat.com/product/monster-of-the-week/",
+  "madeBy": "Michael Sands",
+  "description": [
+    "Your birth was prophesied. You are the Chosen One, and with your abilities you can save the world. If you fail, all will be destroyed. It all rests on you. Only you."
+  ],
+  "statsOptions": [
+    [
+      {
+        "name": "Charm",
+        "value": 2
+      },
+      {
+        "name": "Cool",
+        "value": -1
+      },
+      {
+        "name": "Sharp",
+        "value": -1
+      },
+      {
+        "name": "Tough",
+        "value": 1
+      },
+      {
+        "name": "Weird",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": 1
+      },
+      {
+        "name": "Cool",
+        "value": 2
+      },
+      {
+        "name": "Sharp",
+        "value": 1
+      },
+      {
+        "name": "Tough",
+        "value": 2
+      },
+      {
+        "name": "Weird",
+        "value": -1
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": 1
+      },
+      {
+        "name": "Cool",
+        "value": 2
+      },
+      {
+        "name": "Sharp",
+        "value": 1
+      },
+      {
+        "name": "Tough",
+        "value": 1
+      },
+      {
+        "name": "Weird",
+        "value": -1
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": -1
+      },
+      {
+        "name": "Cool",
+        "value": 1
+      },
+      {
+        "name": "Sharp",
+        "value": 2
+      },
+      {
+        "name": "Tough",
+        "value": -1
+      },
+      {
+        "name": "Weird",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": 1
+      },
+      {
+        "name": "Cool",
+        "value": 2
+      },
+      {
+        "name": "Sharp",
+        "value": -1
+      },
+      {
+        "name": "Tough",
+        "value": -1
+      },
+      {
+        "name": "Weird",
+        "value": 2
+      }
+    ]
+  ],
+  "statOptionsText": "Ratings, pick one line:",
+  "movesText": "You start with Destiny's Plaything and I'm Here For A Reason, and you pick one more Chosen move"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078ce"
+  },
+  "name": "Sonny Crockett",
+  "systemName": "Brindlewood Bay",
+  "available_at": "https://preview.drivethrurpg.com/en/product/410316/Brindlewood-Bay-Kickstarter-Edition",
+  "statsOptions": [
+    [
+      {
+        "name": "Vitality",
+        "value": 0
+      },
+      {
+        "name": "Composure",
+        "value": 1
+      },
+      {
+        "name": "Reason",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 0
+      },
+      {
+        "name": "Sensitivity",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "At the beginning of the game, add 1 to a single ability.",
+  "description": [
+    "You have a very stylish wardrobe—people say “Wow!” whenever they see you around town. Describe your Style in a little more detail and then add Stylish Wardrobe to your Cozy Little Place. When you use it to get an advantage on a die roll, leave it unmarked."
+  ],
+  "madeBy": "Jason Cordova"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078c8"
+  },
+  "name": "The Ghoul",
+  "systemName": "Monsterhearts",
+  "available_at": "https://buriedwithoutceremony.com/",
+  "madeBy": "Avery Alder",
+  "playingThis": [
+    "Obsessive, dangerous, morbid, and quiet. The Ghoul is constantly contending with voracious Hunger, and the emotional distance brought on by death makes it easier to do bad things in pursuit of feeding. They might be a flesh-eating zombie, or something a little more subtle and strange.",
+    "Watchful Golem and Esprit de Corpse both present the ability to steer the Ghoul in a couple different directions. Are you watching over others out of a deep-rooted but unexpressed sense of care? Or are you skulking around serving them because death took away your sense of independence?",
+    "Short Rest For the Wicked is a recipe for pandemonium. It's also an invitation to the MC to frame you into a new, dramatic situation. A lot can happen in a few hours.",
+    "Your Sex Move prompts you to create a new Hunger. It can be anything you like, and it's added to your character alongside their existing Hungers. If you have sex often, you'll find your appetite growing wider and weirder all the time."
+  ],
+  "description": [
+    "Death changed you. It took away your contemplative joy, it dulled your senses, and it left you impossibly hungry. That hunger is always with you, like a hum in your ears that swells and crescendos until you can't hear anything else. Unattended, it will come to dominate you - but feeding it may be just as bad.",
+    "There is a certain beauty to what you've become. Your gaunt body, its unnatural form - it draws people in. Your stark disinterest is beguiling. But underneath that disaffected presentation - the hunger, the hunger."
+  ],
+  "statOptionsText": "The two stat choices for the Ghoul paint a portrait of the character as either cruel and erratic (Volatile 2 & Cold 1) or disaffected and portentous (Cold 2 & Dark 1). Since The Hunger forces you to Keep Your Cool to avoid a feeding opportunity, your Cold stat plays a pivotal role in maintaining self-control.",
+  "statsOptions": [
+    [
+      {
+        "name": "Hot",
+        "value": -1
+      },
+      {
+        "name": "Cold",
+        "value": 1
+      },
+      {
+        "name": "Volatile",
+        "value": 2
+      },
+      {
+        "name": "Dark",
+        "value": -1
+      }
+    ],
+    [
+      {
+        "name": "Hot",
+        "value": -1
+      },
+      {
+        "name": "Cold",
+        "value": 2
+      },
+      {
+        "name": "Volatile",
+        "value": -1
+      },
+      {
+        "name": "Dark",
+        "value": 1
+      }
+    ]
+  ],
+  "movesText": "You get The Hunger, and choose two more"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078cf"
+  },
+  "name": "Frank Dowling",
+  "systemName": "Brindlewood Bay",
+  "available_at": "https://preview.drivethrurpg.com/en/product/410316/Brindlewood-Bay-Kickstarter-Edition",
+  "statsOptions": [
+    [
+      {
+        "name": "Vitality",
+        "value": 0
+      },
+      {
+        "name": "Composure",
+        "value": 1
+      },
+      {
+        "name": "Reason",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 0
+      },
+      {
+        "name": "Sensitivity",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "At the beginning of the game, add 1 to a single ability.",
+  "description": [
+    "You have a strong religious background. Describe it. When you use this move, describe how your faith is helping you resist the Void. Then, unmark every box on The Crown of the Void. You are still Obsessed with the Void if you unmark the Pomegranate Kernel. You may only use this move once."
+  ],
+  "madeBy": "Jason Cordova"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078c6"
+  },
+  "name": "The Fae",
+  "systemName": "Monsterhearts",
+  "available_at": "https://buriedwithoutceremony.com/",
+  "madeBy": "Avery Alder",
+  "playingThis": [
+    "Alluring, otherworldly, fickle, and vengeful. The Fae entices people into making promises, and wields faerie vengeance when those promises are broken. They also have the ability to commune with ethereal forces, just beyond the veil.",
+    "When you play the Fae, promises matter. Use the Fae's allure and wit to tease those promises out of other characters. You can add mechanical incentive for others to make promises to you by spending Strings to tempt them to do what you want, or through the move Lure.",
+    "Keep track of the promises that others make to you, in the margins of your character sheet or on scrap paper. Beyond the Veil, Guide, the option to join a Jury of Fae, and talk of faery justice all invite you to collaboratively imagine the world of faery. To do so, ask questions of the MC, anticipate questions being asked of you in return, and brace yourself for surprise.",
+    "You wear your heart on your sleeve. Give everyone one String.",
+    "You've captured someone's fancy. Gain 2 Strings on them."
+  ],
+  "description": [
+    "At the edges of this world, just beyond the veil, there are colours that few mortals even dream of. Beauty enough to shatter any heart. The Fae live and breathe at the edges of this world. They keep a dusting of that magic tucked behind their ears, just in case.",
+    "And the Fae are willing to share. They're nothing if not generous, asking for only one thing in return. A promise. Keep it, and the true beauty of the world will be revealed. Break it, and feel the wrath of faery vengeance."
+  ],
+  "statsOptions": [
+    [
+      {
+        "name": "Hot",
+        "value": 2
+      },
+      {
+        "name": "Cold",
+        "value": -1
+      },
+      {
+        "name": "Volatile",
+        "value": -1
+      },
+      {
+        "name": "Dark",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "name": "Hot",
+        "value": 1
+      },
+      {
+        "name": "Cold",
+        "value": -1
+      },
+      {
+        "name": "Volatile",
+        "value": 2
+      },
+      {
+        "name": "Dark",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "The two stat choices for the Fae allow you to slant toward being either beautiful and mysterious (Hot 2 & Dark 1) or audacious and alien (Volatile 2 & Hot 1). With a consistently-low Cold stat, they aren't prone to being very chill, cynical, or wry. From their forward sensuality to their unwavering sense of justice, sincerity is a big theme for the Fae.",
+  "movesText": "You get Faery Contract, and choose one more Fea move."
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078ca"
+  },
+  "name": "The Divine",
+  "systemName": "Monster Of the Week",
+  "available_at": "https://evilhat.com/product/monster-of-the-week/",
+  "madeBy": "Michael Sands",
+  "description": [
+    "I am the Light, the Sword. I am sent to defend the meek from Darkness. All Evil fears me, for I am its end"
+  ],
+  "statsOptions": [
+    [
+      {
+        "name": "Charm",
+        "value": 1
+      },
+      {
+        "name": "Cool",
+        "value": 1
+      },
+      {
+        "name": "Sharp",
+        "value": -1
+      },
+      {
+        "name": "Tough",
+        "value": 2
+      },
+      {
+        "name": "Weird",
+        "value": 0
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": -1
+      },
+      {
+        "name": "Cool",
+        "value": 2
+      },
+      {
+        "name": "Sharp",
+        "value": -1
+      },
+      {
+        "name": "Tough",
+        "value": 2
+      },
+      {
+        "name": "Weird",
+        "value": 0
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": -1
+      },
+      {
+        "name": "Cool",
+        "value": 0
+      },
+      {
+        "name": "Sharp",
+        "value": 1
+      },
+      {
+        "name": "Tough",
+        "value": 2
+      },
+      {
+        "name": "Weird",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": 1
+      },
+      {
+        "name": "Cool",
+        "value": 1
+      },
+      {
+        "name": "Sharp",
+        "value": 0
+      },
+      {
+        "name": "Tough",
+        "value": 2
+      },
+      {
+        "name": "Weird",
+        "value": -1
+      }
+    ],
+    [
+      {
+        "name": "Charm",
+        "value": -1
+      },
+      {
+        "name": "Cool",
+        "value": 1
+      },
+      {
+        "name": "Sharp",
+        "value": 0
+      },
+      {
+        "name": "Tough",
+        "value": 2
+      },
+      {
+        "name": "Weird",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "Ratings, pick one line:",
+  "movesText": "You get all the basic moves, and pick three Divine moves"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078cc"
+  },
+  "name": "Frank Columbo",
+  "systemName": "Brindlewood Bay",
+  "available_at": "https://preview.drivethrurpg.com/en/product/410316/Brindlewood-Bay-Kickstarter-Edition",
+  "statsOptions": [
+    [
+      {
+        "name": "Vitality",
+        "value": 0
+      },
+      {
+        "name": "Composure",
+        "value": 1
+      },
+      {
+        "name": "Reason",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 0
+      },
+      {
+        "name": "Sensitivity",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "At the beginning of the game, add 1 to a single ability.",
+  "description": [
+    "Something about you causes the elite of society to not take you too seriously. What is it? Once per mystery, when you do the Meddling Move in a place occupied by the rich and famous, you find an additional Clue, even on a miss."
+  ],
+  "madeBy": "Jason Cordova"
+},
+{
+  "_id": {
+    "$oid": "659d696bd7857996ec1078cd"
+  },
+  "name": "Dale Cooper",
+  "systemName": "Brindlewood Bay",
+  "available_at": "https://preview.drivethrurpg.com/en/product/410316/Brindlewood-Bay-Kickstarter-Edition",
+  "statsOptions": [
+    [
+      {
+        "name": "Vitality",
+        "value": 0
+      },
+      {
+        "name": "Composure",
+        "value": 1
+      },
+      {
+        "name": "Reason",
+        "value": 1
+      },
+      {
+        "name": "Presence",
+        "value": 0
+      },
+      {
+        "name": "Sensitivity",
+        "value": -1
+      }
+    ]
+  ],
+  "statOptionsText": "At the beginning of the game, add 1 to a single ability.",
+  "description": [
+    "Add 1 to your Sensitivity (max 3). At the beginning of each session, the Keeper will give you a Void Clue in the form of a strange, unsettling dream you experience. No two Mavens can have this move at the same time."
+  ],
+  "madeBy": "Jason Cordova"
+}]

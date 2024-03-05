@@ -1,0 +1,1115 @@
+[{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a5"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Unstable",
+  "type": "horizontal",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078ab"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Gear",
+  "type": "text",
+  "description": "You can have protective gear worth 1-armour, if you want. You have a special weapon you are destined to wield. Design your weapon by choosing a form and three business-end options (which are added to the base tags), and a material. For example, if you want a magic sword you could choose the following: handle + blade + long + magic.",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078ad"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Business-end",
+  "type": "vertical",
+  "description": "choose 3 options:",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "artifact (add the “magic” tag)"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "spikes (+1 harm, add the “messy” tag)"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "blade (+1 harm)"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "heavy (+1 harm)"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "long (add the “close” tag)"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "throwable (add the “close” tag)"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "chain (add the “area” tag)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078b3"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Improvments",
+  "type": "vertical",
+  "description": "",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Get +1 Tough, max +3"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Get +1 Cool, max +2"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Get +1 Charm, max +2"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Get +1 Sharp, max +2"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Get +1 Weird, max +2"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "Take another Divine move"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "Take another Divine move"
+    },
+    {
+      "index": 7,
+      "value": false,
+      "text": "Gain a lesser divine being as an ally, sent from above to help with your mission"
+    },
+    {
+      "index": 8,
+      "value": false,
+      "text": "Take a move from another playbook"
+    },
+    {
+      "index": 9,
+      "value": false,
+      "text": "Take a move from another playbook"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078be"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "Conditions",
+  "type": "text",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a7"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Fate",
+  "type": "text",
+  "description": "You get to decide what sort of fate is in store for you. Pick how you found out about your fate, then pick two heroic and two doom tags for your fate from the lists below. This is how your fate will unfold. It's okay to pick contradictory tags: that means your fate is pulling you both ways. Whenever you mark off a point of Luck, the Keeper will throw something from your fate at you.",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a8"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "How You Found Out (pick one)",
+  "type": "vertical",
+  "description": "",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Nightmares and visions"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Some weirdo told you"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "An ancient cult found you"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Sought out by your nemesis"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Attacked by monsters"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "Trained from birth"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "You found the prophecy"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a9"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Heroic",
+  "type": "vertical",
+  "description": "",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Sacrifice"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "You are the Champion"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Visions"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Secret training"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Magical powers"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "Mystical inheritance"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "A normal life"
+    },
+    {
+      "index": 7,
+      "value": false,
+      "text": "True love"
+    },
+    {
+      "index": 8,
+      "value": false,
+      "text": "You can save the world"
+    },
+    {
+      "index": 9,
+      "value": false,
+      "text": "Hidden allies"
+    },
+    {
+      "index": 10,
+      "value": false,
+      "text": "The end of monsters"
+    },
+    {
+      "index": 11,
+      "value": false,
+      "text": "Divine help"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078ac"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Form",
+  "type": "vertical",
+  "description": "choose 1:",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "staff (1-harm hand/close)"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "haft (2-harm hand heavy)"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "handle (1-harm hand balanced)"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "chain (1-harm hand area)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078b1"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Divine Armour",
+  "type": "text",
+  "description": "You also get divine armour (1-armour holy). It has a look suited to your divine origin.",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078b2"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Mission",
+  "type": "vertical",
+  "description": "You have been put on Earth for a purpose. Pick one:",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "You are here to fight the schemes of an Adversary."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "The End of Days approaches. Your role is to guide these hunters and prevent it from coming to pass."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "The End of Days approaches. Your role is to guide these hunters and ensure it comes to pass."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "You have been exiled. You must work for the cause of Good without drawing attention from your brothers and sisters, as they are bound to execute you for your crimes."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "One of the other hunters has a crucial role to play in events to come. You must prepare them for their role, and protect them at any cost."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078b7"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Expirience",
+  "type": "horizontal",
+  "description": "Whenever you fail a roll, mark experience.",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    },
+    {
+      "index": 1,
+      "value": false
+    },
+    {
+      "index": 2,
+      "value": false
+    },
+    {
+      "index": 3,
+      "value": false
+    },
+    {
+      "index": 4,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078b8"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Advancments",
+  "type": "vertical",
+  "description": "When you mark 5 expirence, mark an advancment and umark all expirence",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Add +1 to one of your stats."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Take another Fae move."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Take another Fae move."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Take a move from any Skin."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Take a move from any Skin."
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "You belong to a Jury of Fae."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078ba"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghost",
+  "name": "Advancments",
+  "type": "vertical",
+  "description": "When you mark 5 expirence, mark an advancment and umark all expirence",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Add +1 to one of your stats."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Take another Ghost move."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Take another Ghost move."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Take a move from any Skin."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Take a move from any Skin."
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "You reside in a Haunted House."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078c1"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "Advancments",
+  "type": "vertical",
+  "description": "When you mark 5 expirence, mark an advancment and umark all expirence",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Increase an ability modifier by 1 (max 3)."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Increase an ability modifier by 1 (max 3)."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Choose an additional Maven move."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Choose an additional Maven move."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Unmark all the items in your Cozy Little Place."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078c2"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Crown of the Queen",
+  "type": "vertical",
+  "description": "When you put on this Crown, mark and narrate any you wish.",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "A flashback of your fondest memory of your late partner."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "A flashback showing how you were an imperfect sister or daughter."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "A flashback showing how you were an imperfect mother."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "A flashback of your fondest memory with one of your children."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "A scene in the present day showing a private side of you very few get to see."
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "A scene in the present day showing a burgeoning romance."
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "A scene in the present day showing how you satisfy your physical desires."
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a4"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Harm",
+  "type": "horizontal",
+  "description": "When you reach 4 or more, mark unstable",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    },
+    {
+      "index": 1,
+      "value": false
+    },
+    {
+      "index": 2,
+      "value": false
+    },
+    {
+      "index": 3,
+      "value": false
+    },
+    {
+      "index": 4,
+      "value": false
+    },
+    {
+      "index": 5,
+      "value": false
+    },
+    {
+      "index": 6,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a6"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Experience",
+  "type": "horizontal",
+  "description": "Whenever you roll and get a total of 6 or less, or when a move tells you to, mark an experience box. When you have filled all five experience boxes, you level up. Erase the marks and pick an Improvement",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    },
+    {
+      "index": 1,
+      "value": false
+    },
+    {
+      "index": 2,
+      "value": false
+    },
+    {
+      "index": 3,
+      "value": false
+    },
+    {
+      "index": 4,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078aa"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Doom",
+  "type": "vertical",
+  "description": "",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Death"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "You can't save everyone"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Impossible love"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Failure"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "A nemesis"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "No normal life"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "Loss of loved ones"
+    },
+    {
+      "index": 7,
+      "value": false,
+      "text": "Treachery"
+    },
+    {
+      "index": 8,
+      "value": false,
+      "text": "Doubt"
+    },
+    {
+      "index": 9,
+      "value": false,
+      "text": "Sympathy with the enemy"
+    },
+    {
+      "index": 10,
+      "value": false,
+      "text": "Damnation"
+    },
+    {
+      "index": 11,
+      "value": false,
+      "text": "Hosts of monsters"
+    },
+    {
+      "index": 12,
+      "value": false,
+      "text": "The end of days"
+    },
+    {
+      "index": 13,
+      "value": false,
+      "text": "The source of Evil"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078af"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Improvments",
+  "type": "vertical",
+  "description": "",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Get +1 Charm, max +3"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Get +1 Cool, max +3"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Get +1 Sharp, max +3"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Get +1 Tough, max +3"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Get +1 Weird, max +3"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "Take another Chosen move"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "Take another Chosen move"
+    },
+    {
+      "index": 7,
+      "value": false,
+      "text": "Gain an ally"
+    },
+    {
+      "index": 8,
+      "value": false,
+      "text": "Take a move from another playbook"
+    },
+    {
+      "index": 9,
+      "value": false,
+      "text": "Take a move from another playbook"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078b0"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Divine",
+  "name": "Divine Weapon",
+  "type": "vertical",
+  "description": "Pick one:",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Flaming sword (3-harm hand fire holy)"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Thunder hammer (3-harm hand stun holy)"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Razor whip (3-harm hand area messy holy)"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Five demon bag (3-harm close magic holy)"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Silver trident (3-harm hand silver holy)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078b6"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Conditions",
+  "type": "text",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078b9"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Fae",
+  "name": "Contracts",
+  "type": "text",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078bc"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "Style",
+  "type": "text",
+  "description": "Pick one or make up your own: Alexis Carrington Colby, All the Cardigans, Blouse Barn, Dorothy Zbornak, Goin' Fishin', Hippy Dippy, Jackie O, Martha's Vineyard, O!ce Hours, Speed Walkin', Up in Pumps.",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078bf"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "End of Session",
+  "type": "vertical",
+  "description": "The first is always marked. At the beginning of a session, mark two more (three total marked).",
+  "value": [
+    {
+      "index": 0,
+      "value": true,
+      "text": "Did the Murder Mavens solve a mystery?"
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Did you secretly undermine the authority of a local offcial?"
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Did you share your wisdom with a young person?"
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Did you share a memory of a late family member?"
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Did you behave like a woman half your age?"
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "Did you dote on someone?"
+    },
+    {
+      "index": 6,
+      "value": false,
+      "text": "Did you show someone that you've “still got it?”"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078c0"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "XP",
+  "type": "horizontal",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    },
+    {
+      "index": 1,
+      "value": false
+    },
+    {
+      "index": 2,
+      "value": false
+    },
+    {
+      "index": 3,
+      "value": false
+    },
+    {
+      "index": 4,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078c3"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "The Crown of the Void",
+  "type": "vertical",
+  "description": "When you put on this Crown, mark the first empty box.",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "A Shadow in the Garden: Hereafter, during cozy vignettes focused on you or Cozy Move scenes involving you, you must also narrate how dark entities subtly reveal themselves in the scene."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "The Chariot: Your Reason modifier is reduced by 1 and your Sensitivity modifier is increased by 1."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "The Pallid Mask: Hereafter, during any intimate conversation with another character, you must make a casual reference to death, dying, the afterlife, or the End of All Things—no matter the subject at-hand."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "The Pomegranate Kernel: You take the Condition 'Obsessed with the Void'. It can never be cleared."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "The Void. Retire your character in a way that shows how they are lost to the Void"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078a3"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "basic",
+  "name": "Luck",
+  "type": "horizontal",
+  "description": "Mark luck to change a roll to 12 or avoid all harm from an injury.",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    },
+    {
+      "index": 1,
+      "value": false
+    },
+    {
+      "index": 2,
+      "value": false
+    },
+    {
+      "index": 3,
+      "value": false
+    },
+    {
+      "index": 4,
+      "value": false
+    },
+    {
+      "index": 5,
+      "value": false
+    },
+    {
+      "index": 6,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d6917d7857996ec1078ae"
+  },
+  "system": "Monster Of the Week",
+  "playbook": "The Chosen",
+  "name": "Material",
+  "type": "text",
+  "description": "Finally, pick what material the business-end is made from: add 'steel', 'cold iron', 'silver', 'wood', 'stone', 'bone', 'teeth', 'obsidian', or anything else you want.",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078b4"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Strings",
+  "type": "text",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078b5"
+  },
+  "system": "Monsterhearts",
+  "playbook": "basic",
+  "name": "Harm",
+  "type": "horizontal",
+  "value": [
+    {
+      "index": 0,
+      "value": false
+    },
+    {
+      "index": 1,
+      "value": false
+    },
+    {
+      "index": 2,
+      "value": false
+    },
+    {
+      "index": 3,
+      "value": false
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "659d693ad7857996ec1078bb"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Hungers",
+  "type": "text",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078bd"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "Cozy Activity",
+  "type": "text",
+  "description": "Pick one or make up your own (No two Mavens can have the same activity): Antiques & Furniture, Baking, Birding, Charity Events, Cooking, Gardening, Knitting, Painting, Pottery, Quilting, Scrapbooking, Collecting (Stamps, Buttons, Pressed Flowers,...)",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "659d694ed7857996ec1078c4"
+  },
+  "system": "Brindlewood Bay",
+  "playbook": "basic",
+  "name": "A Cozy Little Place",
+  "type": "text",
+  "value": ""
+},
+{
+  "_id": {
+    "$oid": "65a55ad7b7a5af456b045f74"
+  },
+  "system": "Monsterhearts",
+  "playbook": "The Ghoul",
+  "name": "Advancments",
+  "type": "vertical",
+  "description": "When you mark 5 expirence, mark an advancment and umark all expirence",
+  "value": [
+    {
+      "index": 0,
+      "value": false,
+      "text": "Add +1 to one of your stats."
+    },
+    {
+      "index": 1,
+      "value": false,
+      "text": "Take another Ghoul move."
+    },
+    {
+      "index": 2,
+      "value": false,
+      "text": "Take another Ghoul move."
+    },
+    {
+      "index": 3,
+      "value": false,
+      "text": "Take a move from any Skin."
+    },
+    {
+      "index": 4,
+      "value": false,
+      "text": "Take a move from any Skin."
+    },
+    {
+      "index": 5,
+      "value": false,
+      "text": "You're part of a Reckless Crew."
+    }
+  ]
+}]

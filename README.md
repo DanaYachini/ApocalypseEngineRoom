@@ -37,7 +37,7 @@ If a move has a checkbox near it, it means that this moves works as a modifier t
 Not all moves are available by default. Available moves are marked by the small circle on their left being filled in.
 Basic moves are always available, playbook-specific ones can be togggled. When a move is unavailable, the buttons\checkbox on its right are hidden.
 
-## Potential expensions
+## Getting started
 
-- letting users add pictures for characters
-- creating groups, and having rolls pop-up for everyone in group
+run 'npm run dev' in both the server and client folders.
+if you need sample data, you can easily import the JSON files in 'server/mock data'.

@@ -12,6 +12,7 @@ import CharSheet from './CharSheet/CharSheet'
 import MyChars from './MyChars/MyChars';
 import NewChar from './NewChar/NewChar';
 import Login from './Login/Login';
+import NavBar from './NavBar/NavBar';
 import './App.css'
 
 
@@ -22,6 +23,7 @@ const client = axios.create({
 function App() {
   const [userID, setUserID] = useState("")
   const [loginIssue, setLoginIssue] = useState("")
+  const [sound, setSound] = useState(true)
 
   useEffect(() => {
     const cookieID = Cookies.get('userID');
@@ -50,31 +52,21 @@ function App() {
     })
   }
 
+  const toggleSound = () => {
+    setSound(sound => ! sound)
+  }
+
   return (
     <>
     <BrowserRouter>
-      { userID.length ? 
-        <div className='NavBar'>
-            <Link to="/">
-              <div className='NavBtn'>
-                <FaHome />
-              </div>
-            </Link>
-            <Link to="NewCharacter">
-              <div className='NavBtn'>
-                <FaUserPlus />
-              </div>
-            </Link>
-            <Link to="/">
-              <div className='NavBtn' onClick={logout}>
-                <FaSignOutAlt />
-              </div>
-            </Link>
-        </div>: ""}
+      { userID.length ? <NavBar logout={logout} toggleSound={toggleSound} sound={sound} />: ""}
         <Routes>
-          <Route path="/" element={userID.length ? <MyChars userID={userID} client={client}/> : <Login login={login} signup={signup} client={client} loginIssue={loginIssue} />} />
+          <Route path="/" element={userID.length ? 
+            <MyChars userID={userID} client={client}/> : 
+            <Login login={login} signup={signup} client={client} loginIssue={loginIssue} />
+          }/>
           <Route path="/NewCharacter" element={<NewChar userID={userID} client={client}/>} />
-          <Route path="/CharacterSheet" element={<CharSheet client={client}/>} />
+          <Route path="/CharacterSheet" element={<CharSheet client={client} sound={sound}/>} />
         </Routes>
       </BrowserRouter>
     </>
